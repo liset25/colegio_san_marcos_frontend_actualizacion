@@ -1,16 +1,51 @@
-# React + Vite
+# Colegio San Marcos - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto corresponde al desarrollo del frontend de una aplicación web para la gestión de alumnos del Colegio San Marcos. Fue desarrollado con React y Vite y consume una API REST para realizar operaciones de consulta, registro, edición y eliminación de alumnos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación
 
-## Expanding the Oxlint configuration
+1. Clonar el repositorio.
+2. Instalar las dependencias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+```
+
+3. Ejecutar el proyecto:
+
+```bash
+npm run dev
+```
+
+4. Abrir el navegador en:
+
+```text
+http://localhost:5173
+```
+
+## Estructura del proyecto
+
+* `src/` - Componentes, servicios y utilidades.
+* `public/` - Archivos públicos.
+* `package.json` - Dependencias y scripts.
+* `vite.config.js` - Configuración de Vite.
+
+## Autor
+
+Liset Rodríguez
+
+
+
+
+Agregar README del proyecto
